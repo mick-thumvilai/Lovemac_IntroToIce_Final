@@ -19,7 +19,7 @@ require "lovemac"
           expect(output).to eq("Love")
     	end
     	it "multiples of five test 1" do
-   	  		output = lovemac(50)
+   	  		output = lovemac(5)
           expect(output).to eq("Mac")
     	end
     	it "multiples of five test 2" do
